@@ -16,5 +16,5 @@ jobs:
         parameters: '{"apitoken": "${{ secrets.API_TOKEN }}", "acceptUntrustedCerts": "true"}'
         cmd: |
           'version'
-          'start-build nodejs-ex --follow'
+          'start-build simple-dockerfile --follow'
           'status'
